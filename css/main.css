@@ -11,7 +11,14 @@ h2
 
 h3
 {
+    font-weight: 700;
+    font-size: 2.5em;
+    padding-top: 1em;
+}
 
+h4
+{
+    font-weight: 300;
 }
 
 /* BIO SECTION */
@@ -36,7 +43,7 @@ h3
 .my-row
 {
     /* border: 3px solid red; */
-    height: 40em;
+    /* height: 40em; */
 }
 
 .my-col
@@ -55,7 +62,10 @@ h3
     padding-bottom: 2em;
 }
 
-
+.image-center
+{
+    object-fit: contain;
+}
 /* .col
 {
     padd
@@ -117,7 +127,7 @@ h3
     .my-row
     {
         /* border: 3px solid red; */
-        height: 30em;
+        /* height: 30em; */
     }
 
     .my-col
@@ -134,7 +144,7 @@ h3
 
     .row
     {
-        padding-bottom: 5em;
+        padding-bottom: 4em;
     }
 
     /* 
@@ -167,6 +177,17 @@ h3
         padding-bottom: 0.5em;
     }
 
+    h3
+    {
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+
+    h4
+    {
+        padding-bottom: 2.5em;
+    }
+
     .bio-text
     {
         padding-top: 12em;
@@ -188,7 +209,7 @@ h3
     .my-row
     {
         /* border: 3px solid red; */
-        height: 20em;
+        /* height: 20em; */
     }
     
     .my-col
@@ -204,7 +225,7 @@ h3
 
     .row
     {
-        padding-bottom: 10em;
+        padding-bottom: 5em;
     }
 /* 
     .col
