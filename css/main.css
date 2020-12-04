@@ -1,6 +1,6 @@
 h1
 {
-
+    padding-left: 0.25em;
 }
 
 h2
@@ -28,18 +28,20 @@ h3
 
 .my-container
 {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 2em;
 }
 
 .my-row
 {
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    height: 40em;
 }
 
 .my-col
 {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    padding-top: 2em;
 }
 
 
@@ -62,20 +64,22 @@ h3
 
     .my-container
     {
-        border: 1px solid green;
+        /* border: 1px solid green; */
         padding: 2em;
     }
     
     .my-row
     {
-        border: 3px solid red;
+        /* border: 3px solid red; */
+        height: 20em;
     }
     
     .my-col
     {
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
+        padding-top: 0em;
     }
-    
+
 }
 
 /* MEDIUM SCREEN/TABLET VIEW */
@@ -100,17 +104,24 @@ h3
 
     .my-container
     {
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
 
     .my-row
     {
-        border: 3px solid red;
+        /* border: 3px solid red; */
+        height: 30em;
     }
 
     .my-col
     {
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
+        padding-top: 0em;
+    }
+
+    .image-center
+    {
+        object-fit: cover;        
     }
  
 }
