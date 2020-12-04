@@ -1,6 +1,7 @@
 h1
 {
     padding-left: 0.25em;
+    font-weight: bold;
 }
 
 h2
@@ -44,48 +45,53 @@ h3
     padding-top: 2em;
 }
 
+.container
+{
+    padding-bottom: 1em;;
+}
+
+.row
+{
+    padding-bottom: 2em;
+}
+
+/* .col
+{
+    padd
+} */
+
+
+
+/* https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+
+.zoom
+{
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+    clear: both;
+}
 
 /* MEDIA QUERIES */
 
-/* LARGE SCREEN/DESKTOP VIEW */
 
-@media (min-width: 62rem)
-{
-    .bio-text
-    {
-        padding-top: 15em;
-    }
-
-    .bio-image
-    {
-        margin-top: 15em;
-        padding-left: 0em;
-    }
-
-    .my-container
-    {
-        /* border: 1px solid green; */
-        padding: 2em;
-    }
-    
-    .my-row
-    {
-        /* border: 3px solid red; */
-        height: 20em;
-    }
-    
-    .my-col
-    {
-        /* border: 3px solid blue; */
-        padding-top: 0em;
-    }
-
-}
 
 /* MEDIUM SCREEN/TABLET VIEW */
 
 @media (min-width: 48rem)
 {
+    h1
+    {
+        font-size: 3em;
+        line-height: 1em;
+        padding-bottom: 0.5em;
+    }
+    
     .bio-text
     {
         padding-top: 10em;
@@ -94,7 +100,7 @@ h3
     .bio-image
     {
         margin-top: 10em;
-        padding-left: 0em;
+        padding-left: 10em;
     }
 
     .projects
@@ -119,9 +125,92 @@ h3
         padding-top: 0em;
     }
 
+    /* 
+    .container
+    {
+
+    } */
+
+    .row
+    {
+        padding-bottom: 5em;
+    }
+
+    /* 
+    .col
+    {
+
+    } */
+
     .image-center
     {
         object-fit: cover;        
     }
  
 }
+
+/* LARGE SCREEN/DESKTOP VIEW */
+
+@media (min-width: 62rem)
+{
+    h1
+    {
+        font-size: 4em;
+        line-height: 1em;
+        padding-bottom: 0.5em;
+    }
+
+    h2
+    {
+        font-size: 3em;
+        padding-bottom: 0.5em;
+    }
+
+    .bio-text
+    {
+        padding-top: 12em;
+    }
+
+    .bio-image
+    {
+        margin-top: 12em;
+        padding-left: 0em;
+    }
+
+    .my-container
+    {
+        /* border: 1px solid green; */
+        padding: 2em;
+        
+    }
+    
+    .my-row
+    {
+        /* border: 3px solid red; */
+        height: 20em;
+    }
+    
+    .my-col
+    {
+        /* border: 3px solid blue; */
+        padding-top: 0em;
+    }
+
+    /* .container
+    {
+
+    } */
+
+    .row
+    {
+        padding-bottom: 10em;
+    }
+/* 
+    .col
+    {
+
+    } */
+
+
+}
+
