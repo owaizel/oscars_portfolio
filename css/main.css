@@ -26,6 +26,23 @@ h3
     padding-left: 3em;
 }
 
+.my-container
+{
+    border: 1px solid green;
+    padding: 2em;
+}
+
+.my-row
+{
+    border: 3px solid red;
+}
+
+.my-col
+{
+    border: 3px solid blue;
+}
+
+
 /* MEDIA QUERIES */
 
 /* LARGE SCREEN/DESKTOP VIEW */
@@ -42,6 +59,23 @@ h3
         margin-top: 15em;
         padding-left: 0em;
     }
+
+    .my-container
+    {
+        border: 1px solid green;
+        padding: 2em;
+    }
+    
+    .my-row
+    {
+        border: 3px solid red;
+    }
+    
+    .my-col
+    {
+        border: 3px solid blue;
+    }
+    
 }
 
 /* MEDIUM SCREEN/TABLET VIEW */
@@ -62,6 +96,21 @@ h3
     .projects
     {
         padding-top: 10em;
+    }
+
+    .my-container
+    {
+        border: 1px solid green;
+    }
+
+    .my-row
+    {
+        border: 3px solid red;
+    }
+
+    .my-col
+    {
+        border: 3px solid blue;
     }
  
 }
