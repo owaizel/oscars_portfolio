@@ -1,0 +1,30 @@
+.padding-bottom{
+    padding-bottom: 2em;
+}
+
+.padding-top{
+    padding-top: 2em;
+}
+
+h1
+{
+    font-size: 4em;
+    font-weight: 600;
+}
+
+h2
+{
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h3
+{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h4
+{
+    font-weight: 300;
+}

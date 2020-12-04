@@ -123,6 +123,11 @@
     position: relative;
   }
 
+  .padding-none
+  {
+      padding: 0em;
+  }
+
 /* END OF BORROWED CONTENT FOR NAV BAR (LOOK FOR CITATION IN PREVIOUS COMMENT) */
 
 
