@@ -1,6 +1,134 @@
+/* NAVBAR TEMPLATE RETRIEVED FROM: 
+
+    Tooplate, Marvel Bootstrap 4. February 26 (2019). Retrieved from: https://www.tooplate.com/view/2115-marvel 
+   
+*/
+
+.navbar 
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+    will-change: transform;
+    transition: transform 200ms linear;
+  }
+  
+  .navbar[class*="-unpinned"]
+   {
+    transform: translate(0, -150%);
+  }
+  .navbar[class*="-pinned"] 
+  {
+    transform: translate(0, 0);
+  }
+
+  .navbar[class*="headroom--not-top"]
+   {
+    background: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navbar-brand
+   {
+    font-weight: bold;
+  }
+  
+  .navbar-expand-sm .navbar-nav .nav-link 
+  {
+    padding: 0 20px;
+  }
+  
+  .nav-link 
+  {
+    font-weight: bold;
+    font-size: 16px;
+    overflow: hidden;
+  }
+  .nav-link span
+   {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+  .nav-link span:before 
+  {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover 
+  {
+    color: #ffc200;
+    font-weight: bold;
+  }
+  .navbar-light .navbar-nav .nav-link:focus span,
+  .navbar-light .navbar-nav .nav-link:hover span 
+  {
+    transform: translateY(-100%);
+  }
+  
+  .navbar-light .navbar-toggler-icon 
+  {
+    background: none;
+  }
+  
+  .navbar-toggler 
+  {
+    border: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .navbar-toggler:focus 
+  {
+    outline: none;
+  }
+
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:first-child 
+  {
+    transform: rotate(45deg);
+    top: 6px;
+  }
+
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(2) 
+  {
+    display: none;
+  }
+
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:last-child 
+  {
+    transform: rotate(-45deg);
+    bottom: 1px;
+  }
+
+  .navbar-toggler .navbar-toggler-icon 
+  {
+    background: #212121;
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 5px 0;
+    transition: all 0.4s ease;
+    position: relative;
+  }
+
+/* END OF BORROWED CONTENT FOR NAV BAR (LOOK FOR CITATION IN PREVIOUS COMMENT) */
+
+
 h1
 {
-    padding-left: 0.25em;
+    padding-left: 0.15em;
     font-weight: bold;
 }
 
@@ -179,7 +307,7 @@ h4
 
     h3
     {
-        padding-top: 2em;
+        padding-top: 1em;
         padding-bottom: 0;
     }
 

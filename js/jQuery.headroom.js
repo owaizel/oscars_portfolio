@@ -1,3 +1,11 @@
+
+
+/*!
+  * Bootstrap v4.5.3 (https://getbootstrap.com/)
+  * Copyright © 2020 Free HTML CSS Templates by (https://www.tooplate.com/)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+  */
+
 (function($) {
 
   if(!$) 
